@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flink-overview"
+version = "0.1.0"
+description = ""
+authors = ["war-in <marcin.warchol20@gmail.com>"]
+readme = "README.md"
+packages = [{include = "flink_overview"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+apache-flink = "^1.18.0"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
