@@ -35,4 +35,5 @@ ADD . /app
 # Install any needed packages specified in requirements.txt
 
 # Run script.py when the container launches
-CMD ["poetry", "run", "python", "main.py"]
+#CMD ["poetry", "run", "python", "main.py"]
+CMD ["poetry", "run", "python", "flink_overview.py"]
